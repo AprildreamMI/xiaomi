@@ -1,0 +1,639 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0;
+   padding:0;
+   list-style:none;
+   outline:none;
+}
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.广告{
+	width:1920px;
+	height:133px;
+	background:#ffe3e8;
+}
+.千元{
+	width:316px;
+	height:74px;
+	border:4px #9e4c36 solid;
+	float:left;
+	margin-left:466px;
+	margin-top:26px;
+	text-align:center;
+	font-family:"楷体";
+	font-size:51px;
+	color:#9e4c36;
+	background:#fff1f4;
+}
+.红米{
+	text-align:left;
+	font-family:"楷体";
+	font-size:51px;
+	color:#9e4c36;
+	float:left;
+	margin-left:73px;
+	margin-top:30px;
+}
+.导航栏{
+	position: relative;
+    z-index: 30;
+	height: 40px;
+	font-size: 12px;
+	color: #b0b0b0;
+	background: #333;
+}
+.导航目录{
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.导航目录:before，.导航目录:after
+{
+    content: " ";
+    display: table;
+}
+.导航目录:after{
+	clear:both
+}
+ .左导航目录{
+	float: left;
+	width: 380px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.导航栏 a{
+	color:#b0b0b0;
+	text-decoration: none;
+}
+.导航栏 a:hover{
+	color:#fff;
+}
+.sep{
+	margin:0 1.75px;
+    color:#424242;
+}
+.购物车{
+	float: right;
+	width: 120px;
+    margin-left: 15px;
+}
+.购物车图文{
+	position:relative;
+    z-index:32;
+    display:block;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    color:#b0b0b0;
+    background:#424242;
+}
+.购物车图文 i{
+	margin-right:4px;
+    font-size:20px;
+    line-height:20px;
+    vertical-align:-4.5px
+}
+.零{
+	margin-left: -4px;
+}
+.购物车 a.购物车图文:hover{
+	color:#ff6700;
+	background:#FFFFFF;
+	overflow: visible;
+}
+.隐藏块{
+    display: none;
+    position: absolute;
+	right: 0;
+	top: 40px;
+	z-index: 31;
+	height: 100px;
+	width: 316px;
+	padding: 15px 0 0;
+	color: #424242;
+	background:#FFFFFF;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.购物车 .购物车图文:hover aside{
+	display: block;
+}
+.导航目录 .右导航目录{
+	width: 129px;
+	height: 40px;
+	margin-left: 953px;
+}
+.导航目录 .右导航目录 a{
+	line-height: 40px;
+}
+.Log栏{
+	height: 100px;
+	font-size: 12px;
+	color: #b0b0b0;
+	background: #FFFFFF;
+}
+.Log中栏{
+	width: 1226px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Log中栏 .Log框{
+	width: 56px;
+	height: 56px;
+	float: left;
+	margin-top: 22px;
+	margin-right: 5px;
+}
+.顶部目录{
+	float: left;
+    width: 850px;
+	height: 100px;
+}
+.顶部目录-中栏{
+	position: relative;
+	z-index: 10;
+	float: left;
+	width: 820px;
+	height: 88px;
+    margin: 0px;
+	padding: 12px 0 0 30px;
+	list-style-type: none;
+	font-size: 16px;
+}
+.第一块{
+	position: relative;
+	float: left;
+	width: 127px;
+	height: 88px;
+	padding-right: 15px;
+}
+.小米手机{
+	float: left;
+	width: 84px;
+	height: 88px;
+}
+.小米链接{
+	display: block;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+}
+.小米手机-字{
+	line-height: 88px;
+}
+.小米手机 a.小米链接:hover{
+	color:#ff6700;
+}
+.小米手机-隐藏块{
+	display: none;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	z-index: 24;
+	width: 100%;
+	height: 229px;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.隐藏块-ul{
+	list-style-type: none;
+}
+.隐藏ul-one{
+	position: relative;
+	float: left;
+	width: 204px;
+	height: 201px;
+}
+.新品{
+	width: 66px;
+	height: 22px;
+	border: 1px #ff6700 solid;
+	margin: 0 auto;
+	color:#ff6700;
+	text-align: center;
+}
+.新品图片{
+	margin-top: 20px;
+}
+.MX2{
+	margin-top: 10PX;
+	font-size: 12px;
+}
+.三二九九起{
+	margin-top: 5px;
+	color: #ff6700;
+}
+.竖条{
+	float: left;
+	width: 1px;
+	background: #A4A4A4;
+	height: 110px;
+	margin-top: 45px;
+}
+.小米手机 .小米链接:hover aside{
+	display: block;
+}
+.搜索框{
+	float: right;
+	width: 296px;
+	height: 50px;
+	margin-top: 25px;
+}
+.搜索表单{
+	/*top: 0;
+	right: 51px;*/
+	float:left; 
+	z-index: 1;
+	width: 223px;
+	height: 48px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	line-height: 48px;
+	outline: 0;
+}
+.放大镜{
+	float: right;
+	width: 52px;
+	height: 48px;
+	margin-top: -50px;
+	border: 1px solid #e0e0e0;
+	font-size: 24px;
+	line-height: 24px;
+	color: #616161;
+}
+.放大镜-搜索{
+	text-decoration: none;
+	display:block;
+	height: 48px;
+	background: #FFFFFF;
+	color: #616161;
+}
+.放大镜-搜索 i{
+	display:block;
+	text-align: center;
+	line-height: 48px;
+	font-size: 24px;
+}
+a.放大镜-搜索:hover{
+	background: #ff6700;
+	color: #FFFFFF;
+}
+.中大框{
+	width: 1226px;
+    height: 460px;
+	margin-right: auto;
+    margin-left: auto;
+}
+.中大图{
+	width: 1226px;
+    height: 460px;
+	background-image: url(小米官网/智能硬件/空气净化器.jpg);
+}
+.中大图链接{
+	display: block;
+	float:left;
+}
+.侧边导航栏{
+	float: left;
+	width: 234px;
+    height: 460px;
+}
+.侧导航-ul{
+	position: relative;
+	width: 234px;
+	height: 420px;
+	padding: 20px 0;
+	background: rgba(0,0,0,0.4);
+    list-style-type: none;
+	font-size: 14px;
+}
+.导航条{
+	width: 234px;
+	height: 42px;
+	color: #fff;
+}
+.第一导航条{
+	color: #fff;
+	position: relative;
+	display: block;
+	padding-left: 30px;
+	width: 204px;
+	height: 42px;
+	line-height: 42px;
+}
+.第一导航条 i{
+	float: right;
+	color: rgba(255,255,255,0.5);
+    font-size: 16px;
+    line-height: 42px;
+}
+a.第一导航条:hover{
+	background: #ff6700;
+}
+.导航块:hover .侧边块{
+	display:block;
+}
+.侧边块{
+	position: absolute;
+    display: none;
+    left: 234px;
+    top: 0px;
+	width: 795px;
+	height: 458px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+}
+.侧边竖条{
+	float: left;
+    width: 265px;
+    height: 458px;
+    margin: 0;
+    padding: 2px 0;
+    list-style-type: none;
+}
+.第一款{
+	position: relative;
+    float: left;
+    width: 225px;
+    height: 41.3667px;
+	display: block;
+    padding: 18px 20px;
+    line-height: 40px;
+    color: #333;
+}
+.侧边-图片{
+	width: 40px;
+	height: 40px;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+a.第一款:hover{
+	color: #ff6700;
+}
+.中底块{
+	width: 1226px;
+	height: 170px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.左边第一块{
+	width: 234px;
+	height: 170px;
+    float: left;
+}
+.左一{
+	margin: 0;
+	height: 164px;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+}
+.选购手机{
+	position: relative;
+	float: left;
+	width: 69px;
+	height: 82px;
+	padding: 0 3px;
+}
+.选购手机链接{
+	width: 70px;
+	height: 46px;
+	display: block;
+    padding-top: 18px;
+    color: rgba(255,255,255,0.7);
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+}
+.选购手机链接 i{
+	display: block;
+	width: 70px;
+    height: 24px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 24px;    
+}
+a.选购手机链接:hover{
+	color: #FFFFFF;
+}
+.细线条{
+	float: left;
+	margin-top: 2px;
+	width: 1px;
+	height: 63px;
+	background-color:#646464;
+}
+.横细线条{
+	float: left;
+	width: 63px;
+	height: 1px;
+	background-color:#646464;
+}
+.右边大块{
+	width: 978px;
+	height: 170px;
+	float: left;
+	margin-left: 14px;
+}
+.右边大块ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.右边li{
+	margin-left: 0;
+	float: left;
+	width: 316px;
+	height: 170px;
+}
+.右边li:hover{
+	box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.右边大块ul li:nth-child(2),.右边大块ul li:nth-child(3){
+	margin-left: 15px;
+}
+.小米明星大块{
+	width: 1226px;
+	height: 438px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 46px;
+}
+.明星顶块{
+	width: 1226px;
+	height: 58px;
+}
+.明星标题{
+	float: left;
+	margin: 0;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+.左右滑块{
+	float: right;
+	width: 70px;
+	height: 24px;
+	margin-top: 24px;
+	border: 1px #005CFF solid;
+}
+.左箭头{
+	display: block;
+	float: left;
+	width: 24px;
+	height: 16px;
+	padding: 3px 5px;
+	border-right: 1px #A0A0A0 solid;
+	font-size: 20px;
+	color: #393939;
+	line-height: 16px;
+	text-align: center;
+}
+.右箭头{
+	display: block;
+	float: right;
+	width: 24px;
+	height: 16px;
+	padding: 3px 5px;
+	font-size: 20px;
+	color: #393939;
+	line-height: 16px;
+	text-align: center;
+}
+a.左箭头,a.右箭头:hover{
+	color: #FF0004;
+}
+.明星底块{
+	width: 1226px;
+	height: 340px;
+}
+.第一滑块{
+	width: 234px;
+	height: 300px;
+	padding-top: 39px;
+	text-align: center;
+	float: left;
+	margin-right: 14px;
+	background-color: #FAFAFA;
+	border-top: 1px #0034FF solid;
+}
+.图片滑块{
+	display: block;
+    width: 160px;
+	height: 165.5px;
+    margin: 0 auto 22px;
+}
+.Max2{
+	color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+}
+.oneP{
+	height: 18px;
+	margin: 0 20px 12px;
+	font-size: 12px;
+	text-overflow: ellipsis;
+	color: #b0b0b0;
+}
+.twoP{
+	margin: 0;
+	color: #ff6709;
+}
+.明星底块 ul li:last-child{
+	margin-right: 0px;
+}
+.家电大块{
+	width: 1903px;
+	height: 4128px;
+	padding-top: 60px;
+	background: #f5f5f5;
+}
+.家电内大块{
+	width: 1226px;
+	height: 686px;
+	margin: 0 auto 8px;
+}
+.热门{
+	width: 280px;
+	height: 42px;
+	float: right;
+}
+.热门ul{
+	margin: 0;
+	padding: 16px 0 0;
+	list-style-type: none;
+	font-size: 16px;
+}
+.热门li{
+	float: left;
+	margin: 0 0 0 30px;
+	display: inline-block;
+}
+.热门li a{
+	color: #000000;
+}
+.热门li a:hover{
+	color: #FF7E00;
+	text-decoration: underline;
+}
+.左边竖长块{
+	width:234px;
+	height: 641px;
+	float: left;
+}
+.图片竖长块{
+	display: block;
+	width:234px;
+	height: 641px;
+}
+a.图片竖长块:hover{
+	box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.家电右边大块{
+	width: 978px;
+	height: 628px;
+	float: left;
+	margin-left: 14px;
+}
+.家电ul{
+	list-style-type: none;
+	height: 614px;
+	display: block;
+}
+.家电li{
+	width: 234px;
+	height: 246px;
+	padding: 34px 0 20px;
+	float: left;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+}
+.家电图片{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto 18px;
+}
+.家电标题{
+	width: 214px;
+	height: 21px;
+	color: #333;
+	margin: 0 10px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+.家电链接{
+	display: block;
+}
